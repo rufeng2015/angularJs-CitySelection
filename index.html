@@ -1,0 +1,26 @@
+<html lang="zh-CN" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>城市三级联动</title>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.5.10/angular.js"></script>
+    <style type="text/css">
+    select {
+        width: 116px;
+    }
+    .selectLocation select {
+        display: block;
+        float: left;
+        margin-bottom: 2px;
+    }
+    </style>
+</head>
+
+<body ng-controller="Ctrl">
+    <div cust-location ng-model="location"></div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/citySelected.js"></script>
+</html>
