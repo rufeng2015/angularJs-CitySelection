@@ -2,7 +2,7 @@
  * author rufeng
  * data 2017-10-18
  */
-myApp.directive("citySelected", ['$http', function($http) {
+myApp.directive("citySelected", function($http) {
     return {
         restrict: 'A',
         scope: {
@@ -554,4 +554,4 @@ myApp.directive("citySelected", ['$http', function($http) {
             };
         }
     };
-}]);
+});
